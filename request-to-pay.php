@@ -1,16 +1,14 @@
 <?php
 
-// include_once('create-access-token.php');
+include_once('create-access-token.php');
 
 $payment_url = 'https://sandbox.momodeveloper.mtn.com/collection/v1_0/requesttopay';
 
-$subscription_key = '85e74c865f50406abdd2b54a4800cf92';
-$api_key = '7f8f1a8f95f14be6bfbfcb06992c5930';
-$callback_url = 'https://webhook.site/f17a4674-fb42-431f-b2d0-743197bcbef2';
-$access_token = null;
-$x_reference_id = 'ecdf7a26-81a1-47ae-bdac-04e23a8b7f9e';
-$authorization;
-$access_token = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSMjU2In0.eyJjbGllbnRJZCI6IjExNzQ3NTRhLWU4ZjYtNGVmMy1hZDAzLWVjMmJkZmQ3YmUwMiIsImV4cGlyZXMiOiIyMDI0LTAzLTA3VDIwOjA5OjAxLjY3OSIsInNlc3Npb25JZCI6ImVjMGU0OGZjLTdmNzItNDMyMS05ZGY4LWJmNWYwYjZkZWMxZiJ9.ewptiHJa1VGbcgfcrszt45yxgwEqCbI9oZkYyye9TJa-BFESUZ6tZyXTan4CNvGvDlMp5dYx7GgURXK-utBItrT8999Me2mNFzYYIRBIzM-__7WauutwngluZfzvfLvTTLOt-nouzIB1ZRHk0YeJ3k6Y0XkMniQFJHad8o2bAyDJJ4_uWWdPmtWdXN4q-KeS13e9KIxlo1RbhtizMajgmU_hK2U60aab_Bb7bTUJa0V_S718eG-AEWDUEQwhDrJSqFPNk-uWAzMCJRDcrGR3kNvBicwUoh_RNqcEo5FVd2n0PmgdOEZqea8QAO_DEB4qA8PF8aDjPZzYvJiKSW7P9w';
+// $subscription_key = '85e74c865f50406abdd2b54a4800cf92';
+// $api_key = '7f8f1a8f95f14be6bfbfcb06992c5930';
+// $callback_url = 'https://webhook.site/f17a4674-fb42-431f-b2d0-743197bcbef2';
+// $x_reference_id = 'ecdf7a26-81a1-47ae-bdac-04e23a8b7f9e';
+// $access_token = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSMjU2In0.eyJjbGllbnRJZCI6IjExNzQ3NTRhLWU4ZjYtNGVmMy1hZDAzLWVjMmJkZmQ3YmUwMiIsImV4cGlyZXMiOiIyMDI0LTAzLTA3VDIwOjA5OjAxLjY3OSIsInNlc3Npb25JZCI6ImVjMGU0OGZjLTdmNzItNDMyMS05ZGY4LWJmNWYwYjZkZWMxZiJ9.ewptiHJa1VGbcgfcrszt45yxgwEqCbI9oZkYyye9TJa-BFESUZ6tZyXTan4CNvGvDlMp5dYx7GgURXK-utBItrT8999Me2mNFzYYIRBIzM-__7WauutwngluZfzvfLvTTLOt-nouzIB1ZRHk0YeJ3k6Y0XkMniQFJHad8o2bAyDJJ4_uWWdPmtWdXN4q-KeS13e9KIxlo1RbhtizMajgmU_hK2U60aab_Bb7bTUJa0V_S718eG-AEWDUEQwhDrJSqFPNk-uWAzMCJRDcrGR3kNvBicwUoh_RNqcEo5FVd2n0PmgdOEZqea8QAO_DEB4qA8PF8aDjPZzYvJiKSW7P9w';
 $content_type = 'application/json';
 $cache_control = 'no-cache';
 $x_target_environment = 'sandbox';

@@ -1,10 +1,10 @@
 <?php
 
-// $api_key = include_once('create-api-key.php');
-$api_key = '7f8f1a8f95f14be6bfbfcb06992c5930';
-$x_reference_id = '1174754a-e8f6-4ef3-ad03-ec2bdfd7be02';
+$api_key = include_once('create-api-key.php');
+// $api_key = '7f8f1a8f95f14be6bfbfcb06992c5930';
+// $x_reference_id = '1174754a-e8f6-4ef3-ad03-ec2bdfd7be02';
 
-$subscription_key = '85e74c865f50406abdd2b54a4800cf92';
+// $subscription_key = '85e74c865f50406abdd2b54a4800cf92';
 $access_token = null;
 $auth = $x_reference_id . ':' . $api_key;
 $authorization = 'Basic ' . base64_encode($auth);

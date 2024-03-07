@@ -4,7 +4,7 @@ $create_user_url = 'https://sandbox.momodeveloper.mtn.com/v1_0/apiuser';
 
 $subscription_key = '85e74c865f50406abdd2b54a4800cf92';
 $callback_url = 'https://webhook.site/f17a4674-fb42-431f-b2d0-743197bcbef2';
-$x_reference_id = '1174754a-e8f6-4ef3-ad03-ec2bdfd7be02';
+$x_reference_id = '0b4de2fd-bd66-49f6-a123-16726c8dc381';
 
 $headers = array(
     'Ocp-Apim-Subscription-Key: ' . $subscription_key,
