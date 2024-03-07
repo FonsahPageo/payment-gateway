@@ -1,0 +1,33 @@
+#payment_fields>div {
+  display: none;
+}
+
+#payment_fields>div.show-payment-fields {
+  display: block;
+}
+
+#payment_method_selector label {
+  display: flex;
+  align-items: center;
+}
+
+.payment-icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+}
+
+#payment_fields img.payment-icon-small {
+  vertical-align: middle;
+  margin-bottom: -3px;
+}
+
+.payment-icon-small {
+  width: 50px; 
+  height: auto;
+}
+
+#payment_fields input[type="tel"]{
+  border-radius: 5px;
+  padding: 10px;
+}
