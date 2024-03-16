@@ -1,10 +1,7 @@
 <?php
 include_once 'create-api-user.php';
 
-// $subscription_key = '85e74c865f50406abdd2b54a4800cf92';
 $api_key = null;
-// $x_reference_id = '1174754a-e8f6-4ef3-ad03-ec2bdfd7be02';
-
 $create_key_url = "https://sandbox.momodeveloper.mtn.com/v1_0/apiuser/{$x_reference_id}/apikey";
 
 $headers = array(
